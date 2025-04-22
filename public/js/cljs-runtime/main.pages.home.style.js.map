@@ -1,0 +1,1 @@
+{"version":3,"sources":["main/pages/home/style.cljs"],"mappings":";AAEA,8BAAA,2CAAA,uDAAA,OAAA,4DAAA,nMAAKA","names":["main.pages.home.style/title"],"sourcesContent":["(ns main.pages.home.style)\n\n(def title\n  {:color \"#000\"\n   :fontSize \"2rem\"})\n"]}

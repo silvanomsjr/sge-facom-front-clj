@@ -1,0 +1,50 @@
+/* @use "../pages/login/style"; */
+/**/
+/* * { */
+/*   margin: 0; */
+/*   padding: 0; */
+/*   box-sizing: border-box; */
+/* } */
+/**/
+/* body { */
+/*   background: white; */
+/*   width: 100%; */
+/*   height: 100vh; */
+/* } */
+/**/
+/* // HOME */
+/**/
+/* .login-container { */
+/*   width: 100%; */
+/*   height: 100vh; */
+/*   display: flex; */
+/*   justify-content: center; */
+/*   align-items: center; */
+/**/
+/*   .login-content { */
+/*     padding: 2rem; */
+/*     background: lightgray; */
+/*     display: flex; */
+/*     flex-direction: column; */
+/*     justify-content: center; */
+/*     align-items: center; */
+/*     border-radius: 9px; */
+/*     gap: 1rem; */
+/**/
+/*     input { */
+/*       width: 100%; */
+/*       padding: .4rem 1rem; */
+/*       border: 1px solid rgba($color: #000000, $alpha: 0.4); */
+/*       border-radius: 4px; */
+/*     } */
+/**/
+/*     button { */
+/*       width: 100%; */
+/*       padding: .4rem 1rem; */
+/*       border: 1px solid rgba($color: #000000, $alpha: 0.6); */
+/*       border-radius: 4px; */
+/*       outline: none; */
+/*     } */
+/**/
+/*   } */
+/* } */
