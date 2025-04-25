@@ -4,6 +4,7 @@
    [reagent.core :as r]
    [reitit.frontend :as rf]
    [reitit.frontend.easy :as rfe]
+   [main.components.header :refer [header]]
    [main.pages.home.view :refer [home]]
    [main.pages.login.view :refer [login]]
    [main.pages.cadastro.view :refer [cadastro]]))
@@ -42,11 +43,7 @@
   (fn []
     [:div
      (when (logged-in)
-       [:nav
-        [:a {:href (rfe/href :home)} "home"]
-        " | "
-        [:a {:href (rfe/href :login)} "login"]])
-
+       [header])
      (if @current-page
        [@current-page]
        [not-found])]))

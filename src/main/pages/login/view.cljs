@@ -12,7 +12,6 @@
 (defonce login_errors (r/atom []))
 
 (defn req-to-api [on_success on_error]
-  (println "Que isso: " (str (js/JSON.stringify (clj->js {:email @usuario :password @senha}))))
   (POST "http://localhost:3000/users/login"
     {:body (.stringify js/JSON (clj->js {:email @usuario :password @senha}))
      :headers {"Content-Type" "application/json"}
