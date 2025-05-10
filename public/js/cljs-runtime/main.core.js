@@ -24,8 +24,8 @@ return false;
 main.core.on_navigate = (function main$core$on_navigate(new_match){
 var logged_QMARK_ = main.core.logged_in();
 var page = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(new_match,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"data","data",-232669377),new cljs.core.Keyword(null,"name","name",1843675177)], null));
-if((((!(logged_QMARK_))) && (cljs.core.not((function (){var fexpr__12823 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"login","login",55217519),null,new cljs.core.Keyword(null,"cadastro","cadastro",1342479704),null], null), null);
-return (fexpr__12823.cljs$core$IFn$_invoke$arity$1 ? fexpr__12823.cljs$core$IFn$_invoke$arity$1(page) : fexpr__12823.call(null,page));
+if((((!(logged_QMARK_))) && (cljs.core.not((function (){var fexpr__13213 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"login","login",55217519),null,new cljs.core.Keyword(null,"cadastro","cadastro",1342479704),null], null), null);
+return (fexpr__13213.cljs$core$IFn$_invoke$arity$1 ? fexpr__13213.cljs$core$IFn$_invoke$arity$1(page) : fexpr__13213.call(null,page));
 })())))){
 return reitit.frontend.easy.replace_state.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"login","login",55217519));
 } else {

@@ -1,6 +1,7 @@
 (ns main.utils.main
   (:require [goog.crypt.base64 :as b64]
             [clojure.string :as string]))
+(def API_URL "http://3.138.123.158")
 
 (defn base64url->base64 [s]
   (-> s

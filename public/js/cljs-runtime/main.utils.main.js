@@ -1,7 +1,8 @@
 goog.provide('main.utils.main');
+main.utils.main.API_URL = "http://3.138.123.158";
 main.utils.main.base64url__GT_base64 = (function main$utils$main$base64url__GT_base64(s){
-return (function (p1__12887_SHARP_){
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__12887_SHARP_),cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.repeat.cljs$core$IFn$_invoke$arity$2(cljs.core.mod(((4) - cljs.core.mod(cljs.core.count(p1__12887_SHARP_),(4))),(4)),"=")))].join('');
+return (function (p1__13084_SHARP_){
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__13084_SHARP_),cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.repeat.cljs$core$IFn$_invoke$arity$2(cljs.core.mod(((4) - cljs.core.mod(cljs.core.count(p1__13084_SHARP_),(4))),(4)),"=")))].join('');
 })(clojure.string.replace(clojure.string.replace(s,"-","+"),"_","/"));
 });
 main.utils.main.decode_token = (function main$utils$main$decode_token(token){
